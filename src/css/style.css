@@ -53,7 +53,16 @@ h3 {
 
 #header {
   height: 732px;
-  background: #b2eced;
+  /* Permalink - use to edit and share this gradient:
+   * http://colorzilla.com/gradient-editor/#c7d8e5+0,e5832d+100 */
+  background: #c7d8e5; /* Old browsers */
+  background: -moz-linear-gradient(top,  #c7d8e5 0%, #e5832d 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c7d8e5), color-stop(100%,#e5832d)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #c7d8e5 0%,#e5832d 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #c7d8e5 0%,#e5832d 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #c7d8e5 0%,#e5832d 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #c7d8e5 0%,#e5832d 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7d8e5', endColorstr='#e5832d',GradientType=0 ); /* IE6-9 */
   margin-top: 70px;
   position: relative;
 }
@@ -65,7 +74,7 @@ h3 {
   z-index: 100;
   height: 70px;
   width: 100%;
-  background: rgba(111, 218, 219, 0.9);
+  background: rgba(232, 171, 117, 0.9);
 }
 
 #menu-topo .nav {
@@ -146,11 +155,12 @@ h3 {
 
 #about p {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto;  
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 18px;
+    text-align: center;
     line-height: 24px;
     max-width: 700px;
     text-align: justify;
@@ -158,12 +168,12 @@ h3 {
 
 #sun {
   position: absolute;
-  top: 60px;
+  top: 394px;
   left: 50px;
   width: 150px;
   height: 150px;
   border-radius: 200px;
-  background-color: #fff663;
+  background-color: #FFCB63;
 }
 
 #newton-navarro {
@@ -202,7 +212,7 @@ h3 {
   position: absolute;
   top: 70px;
   left: 80px;
-  height: 85px;
+  height: 85px; 
   width: 109px;
   background-image: url(../img/nuvem2.png);
 
@@ -236,7 +246,7 @@ h3 {
   position: absolute;
   top: 606px;
   left: 80px;
-  height:134px;
+  height:134px; 
   width: 97px;
 }
 
@@ -319,7 +329,7 @@ h3 {
   margin-top: 192px;
   margin-left: 50%;
   height: 690px;
-  width: 0px;
+  width: 0px;  
   border-right-width: 2px;
   border-right-style: dashed;
   border-right-color: #fff;
@@ -332,17 +342,17 @@ h3 {
   margin-top: 10px;
 }
 
-#chronogram .event:nth-child(even){
-  margin-left: 0;
+#chronogram .event:nth-child(even){  
+  margin-left: 0; 
   margin-right: -150px;
 }
 
-#chronogram .event .text{
+#chronogram .event .text{  
   height: 50px;
   width: 203px;
   float: left;
 }
-#chronogram .event:nth-child(even) .text{
+#chronogram .event:nth-child(even) .text{  
   float: right;
 }
 
@@ -362,14 +372,14 @@ h3 {
   font-size: 15px;
   font-weight: bold;
   line-height: 45px;
-  text-align: center;
+  text-align: center; 
   border: 2px solid #70b19d;
   border-radius: 30px;
   background: #fff;
   color: #4f5e70;
   float: left;
 }
-#chronogram .event:nth-child(even) .hour{
+#chronogram .event:nth-child(even) .hour{  
   float: right;
 }
 
@@ -377,10 +387,10 @@ h3 {
   border: none;
   border-top: 2px solid #fff;
   width: 80px;
-  margin: 25px 0 0;
+  margin: 25px 0 0; 
   float: left;
 }
-#chronogram .event:nth-child(even) .line{
+#chronogram .event:nth-child(even) .line{  
   float: right;
 }
 
@@ -394,7 +404,7 @@ h3 {
   margin: 18px 0 0 0;
   float: left;
 }
-#chronogram .event:nth-child(even) .point{
+#chronogram .event:nth-child(even) .point{  
   float: right;
 }
 
@@ -494,44 +504,42 @@ h3 {
   margin: 0 24px;
 }
 
-#sponsors .imgs > a > img {
-  width: 200px;
-  padding: 10px;
-  vertical-align: middle;
+#sponsors .imgs > div > img {
+  width: 100%;
 }
 
-#organizers {
+#talks {
   padding-bottom: 45px;
 }
 
-#organizers-h3 {
+#talks-h3 {
   color: #666;
 }
 
-#organizers-person {
+#talks-person {
   display: block;
   text-align: center;
 }
 
-#organizers-person .frame {
+#talks-person .frame {
   position: relative;
   display: inline-block;
   width: 231px;
   text-align: initial;
 }
 
-#organizers-person .frame div.flex-container {
+#talks-person .frame div.flex-container {
   width: 50%;
   margin-top: 10px;
 }
 
-#organizers-person .frame a {
+#talks-person .frame a {
   display: inline-block;
   width: 35px;
   height: 35px;
   line-height: 35px;
   font-size: 30px;
-  background: #455E70;
+  background: #455E70;  
   color: #fff;
   padding-top: 3px;
   text-align: center;
@@ -543,14 +551,14 @@ h3 {
   pointer-events: none;
 }
 
-.organizers-img {
+.talks-img {
   width: 231px;
   height: 221px;
   position: relative;
   overflow: hidden;
 }
 
-.organizers-img img.avatar {
+.talks-img img.avatar {
   position: absolute;
   width: 231px;
   height: 231px;
@@ -559,14 +567,14 @@ h3 {
   filter: grayscale(1); /* W3C */
 }
 
-.organizers-img .moldura {
+.talks-img .moldura {
   position: absolute;
   width: 100%;
   height: 100%;
   background-image: url(../img/moldura.png);
 }
 
-.organizers-img .nome {
+.talks-img .nome {
   position: absolute;
   width: 100%;
   height: 35px;
@@ -577,11 +585,6 @@ h3 {
   color: #455e70;
 }
 
-.leokz {
-  color: #fff;
-  font-size: 14px;
-  float: left;
-}
 
 span.first-name {
   color: #fff;
