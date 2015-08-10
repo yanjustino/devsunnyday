@@ -585,6 +585,9 @@ h3 {
   color: #455e70;
 }
 
+table tr{
+  margin-top: 50px;
+}
 
 span.first-name {
   color: #fff;
