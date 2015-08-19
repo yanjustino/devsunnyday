@@ -90,7 +90,7 @@
     <section id="talks" class="flex-container" ng-controller="Talker">
       <h3 id="talks-h3">PALESTRANTES</h3>
       <div id="talks-person">
-        <div class="frame" data-sr="scale up 20%, over 0.5s, reset" ng-repeat="talker in talkers | orderBy:'nome'">
+        <div class="frame" ng-repeat="talker in talkers | orderBy:'nome'">
           <div class="talks-img">
             <img src="{{talker.foto}}" class="avatar" />
             <img src="img/moldura.png" class="moldura" />
