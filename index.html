@@ -1,413 +1,293 @@
 <!doctype html>
-<html lang="pt-br">
-  
-  <head>
-    <meta charset="UTF-8">
-    <meta property="og:title" content="Dev Sunny Day 2015" />
-    <meta property="og:site_name" content="Dev Sunny Day 2015" />
-    <meta property="og:url" content="www.devsunnyday.com/" />
-    <meta property="og:locale" content="pt_BR" />
-    <meta property="og:image" content="www.devsunnyday.com/img/logo.png" />
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="800" />
-    <meta property="og:image:height" content="600" />
-    <meta property="og:description" content="A Tecnologia da Informação é sem dúvida uma grande influenciadora nas novas configurações políticas e sócio-culturais de nosso mundo. Sob esta ótica, podemos encarar o software como um catalizador e os desenvolvedores como agentes essenciais de toda esta dinâmica. É pensando na importância e no papel do desenvolvimento de software na sociedade contemporânea que criamos um dos mais importantes eventos para desenvolvedores da Região Nordeste: O Dev Sunny Day. Ele é um evento voltado para startups e profissionais da Tecnologia da Informação interessados em discutir práticas, padrões e ferramentas ligadas ao universo de desenvolvimento de software nas suas mais variadas bandeiras, plataformas e tecnologias."
-    />
-    <meta property="og:type" content="website" />
-    <title>Dev Sunny Day 2015</title>
-    <link href="http://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-  </head>
-  
-  <body>
-    <div id="container">
-      <header id="header">
-        <nav id="menu-topo">
-          <div class="nav">
-            <ul class="nav-ul">
-              <li class="nav-item">
-                <a href="#about">Sobre</a>
-              </li>
-              <li class="nav-item">
-                <a href="#talks">Palestrantes</a>
-              </li>
-              <li class="nav-item">
-                <a href="palestras.html">Palestras</a>
-              </li>
-              <li class="nav-item">
-                <a href="#chronogram">Cronograma</a>
-              </li>
-              <li class="nav-item">
-                <a href="#sign-up">Inscreva-se</a>
-              </li>
-              <li class="nav-item">
-                <a href="#sponsors">Patrocinadores</a>
-              </li>
-              <li class="nav-item">
-                <a href="#participants">Quem pode participar</a>
-              </li>
-              <li class="nav-item">
-                <a href="#place">Local</a>
-              </li>
-            </ul>
-          </div>
-          <div id="face">
-            <a href="https://www.facebook.com/pages/Dev-Sunny-Day/970821906271631" target="_blank">
-          <i class="fa fa-facebook"></i>
-        </a>
-          </div>
-        </nav>
-        <div id="logo-nejs">
-          <div class="logo">
-            <img src="img/logo.png" alt="logo">
-          </div>
-          <span style="color:#fff">10 de Outubro • Auditório IFRN • Natal RN</span>
+<html lang="pt-br" ng-app="app">
+
+<head>
+  <meta charset="UTF-8">
+  <meta property="og:title" content="Dev Sunny Day 2015" />
+  <meta property="og:site_name" content="Dev Sunny Day 2015" />
+  <meta property="og:url" content="www.devsunnyday.com/" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:image" content="www.devsunnyday.com/img/logo.png" />
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="800" />
+  <meta property="og:image:height" content="600" />
+  <meta property="og:description" content="A Tecnologia da Informação é sem dúvida uma grande influenciadora nas novas configurações políticas e sócio-culturais de nosso mundo. Sob esta ótica, podemos encarar o software como um catalizador e os desenvolvedores como agentes essenciais de toda esta dinâmica. É pensando na importância e no papel do desenvolvimento de software na sociedade contemporânea que criamos um dos mais importantes eventos para desenvolvedores da Região Nordeste: O Dev Sunny Day. Ele é um evento voltado para startups e profissionais da Tecnologia da Informação interessados em discutir práticas, padrões e ferramentas ligadas ao universo de desenvolvimento de software nas suas mais variadas bandeiras, plataformas e tecnologias."
+  />
+  <meta property="og:type" content="website" />
+  <title>Dev Sunny Day 2015</title>
+  <link href="http://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+  <div id="container">
+    <header id="header">
+      <nav id="menu-topo">
+        <div class="nav">
+          <ul class="nav-ul">
+            <li class="nav-item">
+              <a href="#about">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a href="#talks">Palestrantes</a>
+            </li>
+            <li class="nav-item">
+              <a href="palestras.html">Palestras</a>
+            </li>
+            <li class="nav-item">
+              <a href="#chronogram">Cronograma</a>
+            </li>
+            <li class="nav-item">
+              <a href="#sign-up">Inscreva-se</a>
+            </li>
+            <li class="nav-item">
+              <a href="#sponsors">Patrocinadores</a>
+            </li>
+            <li class="nav-item">
+              <a href="#participants">Quem pode participar</a>
+            </li>
+            <li class="nav-item">
+              <a href="#place">Local</a>
+            </li>
+          </ul>
         </div>
-        <div id="sun"></div>
-        <div id="clouds"></div>
-        <img id="newton-navarro" src="img/ponte.png" alt="Ponte newton Navarro" />
-        <img id="morro-careca" src="img/morro.png" alt="Morro do Careca" />
-        <div id="sand"></div>
-        <div id="wave2"></div>
-        <div id="wave3"></div>
-        <div id="wave1"></div>
-      </header>
-      <section id="about" class="flex-container">
+        <div id="face">
+          <a href="https://www.facebook.com/pages/Dev-Sunny-Day/970821906271631" target="_blank">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </div>
+      </nav>
+      <div id="logo-nejs">
+        <div class="logo">
+          <img src="img/logo.png" alt="logo">
+        </div>
+        <span style="color:#fff">10 de Outubro • Auditório IFRN • Natal RN</span>
+      </div>
+      <div id="sun"></div>
+      <div id="clouds"></div>
+      <img id="newton-navarro" src="img/ponte.png" alt="Ponte newton Navarro" />
+      <img id="morro-careca" src="img/morro.png" alt="Morro do Careca" />
+      <div id="sand"></div>
+      <div id="wave2"></div>
+      <div id="wave3"></div>
+      <div id="wave1"></div>
+    </header>
+    <section id="about" class="flex-container">
+      <div>
+        <h3>SOBRE O EVENTO</h3>
+        <p>A Tecnologia da Informação é sem dúvida uma grande influenciadora nas novas configurações políticas e sócio-culturais
+          de nosso mundo. Sob esta ótica, podemos encarar o software como um catalizador e os desenvolvedores como agentes
+          essenciais de toda esta dinâmica. É pensando na importância e no papel do desenvolvimento de software na sociedade
+          contemporânea que criamos um dos mais importantes eventos para desenvolvedores da Região Nordeste: O Dev Sunny
+          Day. Ele é um evento voltado para startups e profissionais da Tecnologia da Informação interessados em discutir
+          práticas, padrões e ferramentas ligadas ao universo de desenvolvimento de software nas suas mais variadas bandeiras,
+          plataformas e tecnologias.</p>
+      </div>
+    </section>
+    <!--talks-->
+    <section id="talks" class="flex-container" ng-controller="Talker">
+      <h3 id="talks-h3">PALESTRANTES</h3>
+      <div id="talks-person">
+        <div class="frame" data-sr="scale up 20%, over 0.5s, reset" ng-repeat="talker in talkers | orderBy:'nome'">
+          <div class="talks-img">
+            <img src="{{talker.foto}}" class="avatar" />
+            <img src="img/moldura.png" class="moldura" />
+            <div class="nome">
+              <span class="first-name">{{talker.nome}}</span>{{talker.sobrenome}}</div>
+          </div>
+          <div class="flex-container">
+            <p>{{talker.empresa}}</p>
+          </div>
+          <div class="flex-container">
+            <a href="{{talker.facebook}}" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="{{talker.github}}" target="_blank"><i class="fa fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--chronogram-->
+    <section id="chronogram" class="flex-container">
+      <div class="lineP"></div>
+      <div>
+        <h3>CRONOGRAMA</h3>
+        <div class="day">DIA</div>
+        <div class="event" data-sr="roll -10deg, scale up 20%, over 2s, reset">
+          <div class="text">
+            <div class="middle">Credenciamento</div>
+          </div>
+          <div class="hour" title="Credenciamento">07:00</div>
+          <span class="line"></span>
+          <div class="point"></div>
+        </div>
+        <div class="event" data-sr="roll 10deg, scale up 20%, over 2s, reset">
+          <div class="text">
+            <div class="middle">Apresentação</div>
+          </div>
+          <div class="hour" title="Apresentação do Hackathon">08:00</div>
+          <span class="line"></span>
+          <div class="point"></div>
+        </div>
+        <div class="event" data-sr="roll -10deg, scale up 20%, over 2s, reset">
+          <div class="text">
+            <div class="middle">Primeiro ciclo de palestras</div>
+          </div>
+          <div class="hour" title="Primeiro ciclo de palestras">08:15</div>
+          <span class="line"></span>
+          <div class="point"></div>
+        </div>
+        <div class="event" data-sr="roll -10deg, scale up 20%, over 2s, reset">
+          <div class="text">
+            <div class="middle">Almoço</div>
+          </div>
+          <div class="hour" title="Almoço">12:00</div>
+          <span class="line"></span>
+          <div class="point"></div>
+        </div>
+        <div class="event" data-sr="roll 10deg, scale up 20%, over 2s, reset">
+          <div class="text">
+            <div class="middle">Mesa redonda</div>
+          </div>
+          <div class="hour" title="Início da competição">13:30</div>
+          <span class="line"></span>
+          <div class="point"></div>
+        </div>
+        <div class="event" data-sr="roll 10deg, scale up 20%, over 2s, reset">
+          <div class="text">
+            <div class="middle">Segundo ciclo de palestras</div>
+          </div>
+          <div class="hour" title="Início da competição">14:00</div>
+          <span class="line"></span>
+          <div class="point"></div>
+        </div>
+        <div class="event" data-sr="roll 10deg, scale up 20%, over 2s, reset">
+          <div class="text">
+            <div class="middle">Sorteio de brindes</div>
+          </div>
+          <div class="hour" title="Início da competição">17:30</div>
+          <span class="line"></span>
+          <div class="point"></div>
+        </div>
+        <div class="event" data-sr="roll 10deg, scale up 20%, over 2s, reset">
+          <div class="text">
+            <div class="middle">Encerramento</div>
+          </div>
+          <div class="hour" title="Início da competição">18:00</div>
+          <span class="line"></span>
+          <div class="point"></div>
+        </div>
+        <div class="event" data-sr="roll 10deg, scale up 20%, over 2s, reset">
+          <div class="text">
+            <div class="middle">Hora Extra</div>
+          </div>
+          <div class="hour" title="Início da competição">19:00</div>
+          <span class="line"></span>
+          <div class="point"></div>
+        </div>
+      </div>
+    </section>
+    <section id="sign-up" class="flex-container">
+      <div>
+        <h3>INSCREVA-SE</h3>
         <div>
-          <h3>SOBRE O EVENTO</h3>
-          <p>A Tecnologia da Informação é sem dúvida uma grande influenciadora nas novas configurações políticas e sócio-culturais de
-            nosso mundo. Sob esta ótica, podemos encarar o software como um catalizador e os desenvolvedores como agentes essenciais
-            de toda esta dinâmica. É pensando na importância e no papel do desenvolvimento de software na sociedade contemporânea que
-            criamos um dos mais importantes eventos para desenvolvedores da Região Nordeste: O Dev Sunny Day. Ele é um evento voltado
-            para startups e profissionais da Tecnologia da Informação interessados em discutir práticas, padrões e ferramentas ligadas
-            ao universo de desenvolvimento de software nas suas mais variadas bandeiras, plataformas e tecnologias.</p>
-        </div>
-      </section>
-      <section id="talks" class="flex-container">
-        <h3 id="talks-h3">PALESTRANTES</h3>
-        <div id="talks-person">
-          <div class="frame" data-sr="scale up 20%, over 0.5s, reset">
-            <div class="talks-img">
-              <img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/1601238_10153087456948592_5860558739462804315_n.jpg?oh=7feba13d46b60207c6bf584ebed75f09&oe=5684604F&__gda__=1451454320_c8928df65b0453c28f9de1044a8ce59c"
-              class="avatar" />
-              <img src="img/moldura.png" class="moldura" />
-              <div class="nome">
-                <span class="first-name">André</span>Baltieri</div>
-            </div>
-            <div class="flex-container">
-              <p>Consultor</p>
-            </div>
-            <div class="flex-container">
-              <a href="http://facebook.com/andre.baltieri" target="_blank"><i class="fa fa-facebook"></i></a>
-              <a href="http://github.com/andrebaltieri" target="_blank"><i class="fa fa-github"></i></a>
-              <a href="palestras.html#andre-baltieri" target="_blank"><span>...</span></a>
-            </div>
-          </div>
-          <div class="frame" data-sr="scale up 20%, over 0.7s, reset">
-            <div class="talks-img">
-              <img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xat1/v/t1.0-9/10300084_846739575361241_4486578800220105110_n.jpg?oh=89eb92d4cf2bdd25bbc39d0871740e87&oe=5635F7BD&__gda__=1448228450_6b0867aad66ca66eb751f4ec8bf73283"
-              class="avatar" />
-              <img src="img/moldura.png" class="moldura" />
-              <div class="nome">
-                <span class="first-name">Giovanni</span>Bassi</div>
-            </div>
-            <div class="flex-container">
-              <p>Lambda3</p>
-            </div>
-            <div class="flex-container">
-              <a href="https://twitter.com/giovannibassi" target="_blank"><i class="fa fa-facebook"></i></a>
-              <a href="https://github.com/giggio" target="_blank"><i class="fa fa-github"></i></a>
-              <a href="palestras.html#giovanni-bassi" target="_blank"><span>...</span></a>
-            </div>
-          </div>
-          <div class="frame" data-sr="scale up 20%, over 0.9s, reset">
-            <div class="talks-img">
-              <img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-frc3/v/t1.0-9/1441307_10202726151577610_1952290580_n.jpg?oh=acd83f358c640741bc9b415ba19e8a1c&oe=564E6696&__gda__=1446715388_93aedaeef350c61910934c513447b979"
-              class="avatar" />
-              <img src="img/moldura.png" class="moldura" />
-              <div class="nome">
-                <span class="first-name">Fernando</span>Henrique</div>
-            </div>
-            <div class="flex-container">
-              <p>Microsoft</p>
-            </div>
-            <div class="flex-container">
-              <a href="https://www.facebook.com/ferhenriquef" target="_blank"><i class="fa fa-facebook"></i></a>
-              <a href="https://github.com/FerHenrique" target="_blank"><i class="fa fa-github"></i></a>
-              <a href="palestras.html#fernando-henrique" target="_blank"><span>...</span></a>
-            </div>
-          </div>
-          <div class="frame" data-sr="scale up 20%, over 1.1s, reset">
-            <div class="talks-img">
-              <img src="https://media.licdn.com/media/p/8/000/297/380/19e59f1.jpg" class="avatar" />
-              <img src="img/moldura.png" class="moldura" />
-              <div class="nome">
-                <span class="first-name">Gleydson</span>Lima</div>
-            </div>
-            <div class="flex-container">
-              <p>SIG Software</p>
-            </div>
-            <div class="flex-container">
-              <a href="https://www.facebook.com/gleydson.lima.50" target="_blank"><i class="fa fa-facebook"></i></a>
-              <a href="https://www.linkedin.com/pub/gleydson-lima/39/877/471" target="_blank"><i class="fa fa-github"></i></a>
-              <a href="palestras.html#gleydson-lima" target="_blank"><span>...</span></a>
-            </div>
-          </div>
-          <div class="frame" data-sr="scale up 20%, over 1.3s, reset">
-            <div class="talks-img">
-              <img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/10846162_10203298468241157_62892637777950712_n.jpg?oh=add9a050d35d9d6e4381a83429d1fa35&oe=567F4F0C&__gda__=1447461690_c890801f3c94407df7f1dd81882ce242"
-              class="avatar" />
-              <img src="img/moldura.png" class="moldura" />
-              <div class="nome">
-                <span class="first-name">Bruno</span>Henrique</div>
-            </div>
-            <div class="flex-container">
-              <p>Bearch</p>
-            </div>
-            <div class="flex-container">
-              <a href="https://www.facebook.com/brunogaru" target="_blank"><i class="fa fa-facebook"></i></a>
-              <a href="https://github.com/brunohenrique" target="_blank"><i class="fa fa-github"></i></a>
-              <a href="palestras.html#bruno-henrique" target="_blank"><span>...</span></a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="talks" class="flex-container">
-        <div id="talks-person">
-          <div class="frame" data-sr="scale up 20%, over 0.5s, reset">
-            <div class="talks-img">
-              <img src="https://pt.gravatar.com/userimage/35884144/45dab1daa69fce19731e3cf4963f96f5.jpg?size=500" class="avatar" />
-              <img src="img/moldura.png" class="moldura" />
-              <div class="nome">
-                <span class="first-name">Eduardo</span>Pires</div>
-            </div>
-            <div class="flex-container">
-              <p>Consultor</p>
-            </div>
-            <div class="flex-container">
-              <a href="https://www.facebook.com/headfox" target="_blank"><i class="fa fa-facebook"></i></a>
-              <a href="https://github.com/eduardopires" target="_blank"><i class="fa fa-github"></i></a>
-              <a href="palestras.html#eduardo-pires" target="_blank"><span>...</span></a>
-            </div>
-          </div>
-          <div class="frame" data-sr="scale up 20%, over 0.5s, reset">
-            <div class="talks-img">
-              <img src="img/ronualdo.jpg" class="avatar" />
-              <img src="img/moldura.png" class="moldura" />
-              <div class="nome">
-                <span class="first-name">Ronualdo</span>Maciel</div>
-            </div>
-            <div class="flex-container">
-              <p>Thoughtworks</p>
-            </div>
-            <div class="flex-container">
-              <a href="https://www.facebook.com/profile.php?id=100000018153828" target="_blank"><i class="fa fa-facebook"></i></a>
-              <a href="palestras.html#ronualdo-maciel" target="_blank"><i class="fa fa-github"></i></a>
-              <a href="palestras.html#ronualdo-maciel" target="_blank"><span>...</span></a>
-            </div>
-          </div>
-          <div class="frame" data-sr="scale up 20%, over 0.5s, reset">
-            <div class="talks-img">
-              <img src="https://mvp.microsoft.com/en-us/PublicProfile/Photo/4030594" class="avatar" />
-              <img src="img/moldura.png" class="moldura" />
-              <div class="nome">
-                <span class="first-name">Victor</span>Cavalcanti</div>
-            </div>
-            <div class="flex-container">
-              <p>Lambda3</p>
-            </div>
-            <div class="flex-container">
-              <a href="https://www.facebook.com/vccavalcante" target="_blank"><i class="fa fa-facebook"></i></a>
-              <a href="palestras.html#victor-cavalcanti" target="_blank"><i class="fa fa-github"></i></a>
-              <a href="palestras.html#victor-cavalcanti" target="_blank"><span>...</span></a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="chronogram" class="flex-container">
-        <div class="lineP"></div>
-        <div>
-          <h3>CRONOGRAMA</h3>
-          <div class="day">DIA</div>
-          <div class="event" data-sr="roll -10deg, scale up 20%, over 2s, reset">
-            <div class="text">
-              <div class="middle">Credenciamento</div>
-            </div>
-            <div class="hour" title="Credenciamento">07:00</div>
-            <span class="line"></span>
-            <div class="point"></div>
-          </div>
-          <div class="event" data-sr="roll 10deg, scale up 20%, over 2s, reset">
-            <div class="text">
-              <div class="middle">Apresentação</div>
-            </div>
-            <div class="hour" title="Apresentação do Hackathon">08:00</div>
-            <span class="line"></span>
-            <div class="point"></div>
-          </div>
-          <div class="event" data-sr="roll -10deg, scale up 20%, over 2s, reset">
-            <div class="text">
-              <div class="middle">Primeiro ciclo de palestras</div>
-            </div>
-            <div class="hour" title="Primeiro ciclo de palestras">08:15</div>
-            <span class="line"></span>
-            <div class="point"></div>
-          </div>
-          <div class="event" data-sr="roll -10deg, scale up 20%, over 2s, reset">
-            <div class="text">
-              <div class="middle">Almoço</div>
-            </div>
-            <div class="hour" title="Almoço">12:00</div>
-            <span class="line"></span>
-            <div class="point"></div>
-          </div>
-          <div class="event" data-sr="roll 10deg, scale up 20%, over 2s, reset">
-            <div class="text">
-              <div class="middle">Mesa redonda</div>
-            </div>
-            <div class="hour" title="Início da competição">13:30</div>
-            <span class="line"></span>
-            <div class="point"></div>
-          </div>
-          <div class="event" data-sr="roll 10deg, scale up 20%, over 2s, reset">
-            <div class="text">
-              <div class="middle">Segundo ciclo de palestras</div>
-            </div>
-            <div class="hour" title="Início da competição">14:00</div>
-            <span class="line"></span>
-            <div class="point"></div>
-          </div>
-          <div class="event" data-sr="roll 10deg, scale up 20%, over 2s, reset">
-            <div class="text">
-              <div class="middle">Sorteio de brindes</div>
-            </div>
-            <div class="hour" title="Início da competição">17:30</div>
-            <span class="line"></span>
-            <div class="point"></div>
-          </div>
-          <div class="event" data-sr="roll 10deg, scale up 20%, over 2s, reset">
-            <div class="text">
-              <div class="middle">Encerramento</div>
-            </div>
-            <div class="hour" title="Início da competição">18:00</div>
-            <span class="line"></span>
-            <div class="point"></div>
-          </div>
-          <div class="event" data-sr="roll 10deg, scale up 20%, over 2s, reset">
-            <div class="text">
-              <div class="middle">Hora Extra</div>
-            </div>
-            <div class="hour" title="Início da competição">19:00</div>
-            <span class="line"></span>
-            <div class="point"></div>
-          </div>
-        </div>
-      </section>
-      <section id="sign-up" class="flex-container">
-        <div>
-          <h3>INSCREVA-SE</h3>
-          <div>
-            <div class="sign-center">
-              <div class="line one"></div>
-              <div class="line two"></div>
-              <div class="ctBall" style="width: 140px;" data-sr="scale up 80%, over .5s, reset">
-                <div class="ball" style="width: 140px; height: 140px; font-size: 28px;">
-                  <div class="middle" style="width: 150px;">R$ 49,50</div>
-                </div>
+          <div class="sign-center">
+            <div class="line one"></div>
+            <div class="line two"></div>
+            <div class="ctBall" style="width: 140px;" data-sr="scale up 80%, over .5s, reset">
+              <div class="ball" style="width: 140px; height: 140px; font-size: 28px;">
+                <div class="middle" style="width: 150px;">R$ 49,50</div>
               </div>
-              <div class="ctBall" style="width: 75px; margin-top: -15px;" data-sr="scale up 20%, over 1s, reset">
-                <div class="ball" style="width: 75px; height: 75px; font-size: 18px;">
-                  <div class="middle" style="width: 75px;">até 09/10</div>
-                </div>
+            </div>
+            <div class="ctBall" style="width: 75px; margin-top: -15px;" data-sr="scale up 20%, over 1s, reset">
+              <div class="ball" style="width: 75px; height: 75px; font-size: 18px;">
+                <div class="middle" style="width: 75px;">até 09/10</div>
               </div>
-              <div class="ctBall" style="width: 150px;" data-sr="scale up 50%, over 1.5s, reset">
-                <div class="ball" style="background: #e9d6a0; box-shadow: 0 0 0
+            </div>
+            <div class="ctBall" style="width: 150px;" data-sr="scale up 50%, over 1.5s, reset">
+              <div class="ball" style="background: #e9d6a0; box-shadow: 0 0 0
                 3px #e9d6a0; width: 150px; height: 150px; font-size: 20px;">
-                  <a href="http://even.tc/dev-sunny-day" class="middle">CLIQUE AQUI<div style="width: 150px;">
+                <a href="http://even.tc/dev-sunny-day" class="middle">CLIQUE AQUI<div style="width: 150px;">
                 </div></a>
-                </div>
               </div>
             </div>
           </div>
-          <!--<div class="leokz">
-          * Para ler o edital com as regras do evento <a
-            href="https://github.com/nejs/hackathon2015-docs/blob/master/edital.md">Clique
-          Aqui</a>
-        </div>--></div>
-      </section>
-      <section id="sponsors" class="flex-container">
-        <div id="sponsors-div">
-          <h3 id="sponsors-h3">PATROCINADORES</h3>
-          <div class="imgs">
-            <a href="http://wiquadro.com.br" target="_blank">
+        </div>
+      </div>
+    </section>
+    <section id="sponsors" class="flex-container">
+      <div id="sponsors-div">
+        <h3 id="sponsors-h3">PATROCINADORES</h3>
+        <div class="imgs">
+          <a href="http://wiquadro.com.br" target="_blank">
             <img src="img/wiquadro.png" alt="Wiquadro">
           </a>
-          </div>
         </div>
-      </section>
-      <section id="sponsors" class="flex-container">
-        <div id="sponsors-div">
-          <h3 id="sponsors-h3">APOIO</h3>
-          <div class="imgs">
-            <a href="#">
-              <img src="img/sponsor_eduardopires.png" alt="eduardo pires">
-            </a>
-            <a href="#">
-              <img src="img/sponsor_lambda3.png" alt="eduardo pires">
-            </a>  
-            <a href="#">
-              <img src="img/sponsor_microsoft.png" alt="eduardo pires">
-            </a>           
-            <br/>
-            <br/>
-            <a href="#">
-              <img src="img/ab.png" alt="eduardo pires">
-            </a> 
-            <a href="#">
-              <img src="img/imobee.png" alt="eduardo pires">
-            </a>                                     
-          </div>
+      </div>
+    </section>
+    <section id="sponsors" class="flex-container">
+      <div id="sponsors-div">
+        <h3 id="sponsors-h3">APOIO</h3>
+        <div class="imgs">
+          <a href="#">
+            <img src="img/sponsor_eduardopires.png" alt="eduardo pires">
+          </a>
+          <a href="#">
+            <img src="img/sponsor_lambda3.png" alt="eduardo pires">
+          </a>
+          <a href="#">
+            <img src="img/sponsor_microsoft.png" alt="eduardo pires">
+          </a>
+          <br/>
+          <br/>
+          <a href="#">
+            <img src="img/ab.png" alt="eduardo pires">
+          </a>
+          <a href="#">
+            <img src="img/imobee.png" alt="eduardo pires">
+          </a>
         </div>
-      </section>
-      <section id="participants">
-        <h3 id="participants-h3">QUEM PODE PARTICIPAR</h3>
+      </div>
+    </section>
+    <section id="participants">
+      <h3 id="participants-h3">QUEM PODE PARTICIPAR</h3>
+      <div>
+        <div class="ct-img" data-sr="enter left move 200px, over 1s, reset">
+          <div class="img">
+            <img alt="Programadores" src="img/david.png">
+          </div>
+          <span>PROGRAMADORES</span>
+        </div>
+        <div class="ct-img" data-sr="enter right move 200px, over 1s, reset">
+          <div class="img">
+            <img alt="Designers" src="img/wanderley.png">
+          </div>
+          <span>ANALISTAS</span>
+        </div>
+      </div>
+    </section>
+    <!-- participants -->
+    <section id="place">
+      <div class="local">
         <div>
-          <div class="ct-img" data-sr="enter left move 200px, over 1s, reset">
-            <div class="img">
-              <img alt="Programadores" src="img/david.png">
-            </div>
-            <span>PROGRAMADORES</span>
-          </div>
-          <div class="ct-img" data-sr="enter right move 200px, over 1s, reset">
-            <div class="img">
-              <img alt="Designers" src="img/wanderley.png">
-            </div>
-            <span>ANALISTAS</span>
-          </div>
-        </div>
-      </section>
-      <!-- participants -->
-      <section id="place">
-        <div class="local">
-          <div>
-            <div class="center-place">
-              <h3>LOCAL</h3>
-              <!--<img src="img/logoimd.png" alt="IMD" width="150">-->
-              <hr>
-              <span>Avenida Senador Salgado Filho, 1550
+          <div class="center-place">
+            <h3>LOCAL</h3>
+            <!--<img src="img/logoimd.png" alt="IMD" width="150">-->
+            <hr>
+            <span>Avenida Senador Salgado Filho, 1550
                 <br>Lagoa Nova - Natal - Rio Grande do Norte</span>
-            </div>
           </div>
         </div>
-        <div class="map">
-          <iframe class="scrolloff" id="map-canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63507.08389300645!2d-35.236233999788446!3d-5.828427434863777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x5c55d75db98a785e!2sIFRN!5e0!3m2!1spt-BR!2sbr!4v1439165050268"
-          width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-      </section>
-    </div>
-    <script src="js/js.js"></script>
-  </body>
+      </div>
+      <div class="map">
+        <iframe class="scrolloff" id="map-canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63507.08389300645!2d-35.236233999788446!3d-5.828427434863777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x5c55d75db98a785e!2sIFRN!5e0!3m2!1spt-BR!2sbr!4v1439165050268"
+        width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </section>
+  </div>
+  <script src="js/js.js"></script>
+  <script src="node_modules/angular/angular.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
 
 </html>
