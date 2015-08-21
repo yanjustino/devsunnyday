@@ -4,7 +4,6 @@
 
 	var app = angular.module('app', []);
 
-
 	app.controller('Talker', Talker);
 
 	Talker.$inject = ['$scope']
@@ -19,7 +18,7 @@
 				"empresa": "Consultor",
 				"facebook": "http://facebook.com/andre.baltieri",
 				"github": "http://github.com/andrebaltieri",
-				"titulo": "Single Page Applications com ASP.NET e AngularJs",
+				"titulo": "Single Page Applications com NodeJs e AngularJs",
 				"resumo": "Nesta palestra vamos aprender a criar aplicações ricas e modernas utilizando o ASP.NET WebAPI como Backend e o AngularJs como frontend.",
 				"cv": "Trabalha com desenvolvimento de aplicações web desde 2003, em projetos de médio e grande porte no Brasil, EUA, Inglaterra e Holanda. Atualmente é consultor independente e realiza treinamentos na plataforma web/.NET. Amante de JavaScript, focado em SPA e desenvolvimento web para aplicativos móveis para diversos dispositivos e áreas.",
 				"foto": "https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/1601238_10153087456948592_5860558739462804315_n.jpg?oh=7feba13d46b60207c6bf584ebed75f09&oe=5684604F&__gda__=1451454320_c8928df65b0453c28f9de1044a8ce59c"
@@ -109,7 +108,7 @@
 				"github": "https://www.facebook.com/vccavalcante",
 				"titulo": "Trabalhando com Grunt, Bower e outras coisinhas WEB",
 				"resumo": "Trabalhando com Grunt, Bower e outras coisinhas WEB",
-				"cv": "",
+				"cv": "Victor Cavalcante é Microsoft MVP na tecnologia ASP.Net, trabalha com desenvolvimento web a 12 anos,é focado em padrões de desenvolvimento para web. Trabalha na Lambda3 (www.lambda3.com.br) empresa ágil que fundou com outros MVPs e amigos, e que insiste em fazer software certo. É ainda professor universitário e atua no grupo .NET Architects desde seu início. Acompanhe seu twitter para saber as novidades: @vcavalcante.",
 				"foto": "https://mvp.microsoft.com/en-us/PublicProfile/Photo/4030594"
 			},
 			{
