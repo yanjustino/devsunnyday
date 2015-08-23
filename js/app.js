@@ -123,15 +123,15 @@
 				"foto": "https://scontent-mia1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10641111_747091105373293_8276710888319398401_n.jpg?oh=1a9e0bcb03a6058b3aa1a18353938e74&oe=564427E2"
 			},
 			{
-				"nome": "Mateu",
+				"nome": "Mateus",
 				"sobrenome": "Gomes",
 				"empresa": "HE:Labs",
-				"facebook": "https://www.facebook.com/mateusg18",
-				"github": "https://github.com/mateusg",
-				"titulo": "Em breve",
-				"resumo": "Em breve",
-				"cv": "Em Breve",
-				"foto": "https://scontent-mia1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10672340_743916082346356_7385471557937759784_n.jpg?oh=2b2dee59d738aef8c2f79793406ebea1&oe=567CF8B6"
+				"facebook": "http://facebook.com/mateusg18",
+				"github": "http://github.com/mateusg",
+				"titulo": "Mantendo a sua app Rails organizada",
+				"resumo": "Quando criamos uma nova app com Rails, o framework já nos traz uma série de convenções de nomenclatura e estrutura que nos auxilia a mantê-la organizada. Entretanto, conforme ela cresce e vai se tornando mais complexa, torna-se cada vez mais difícil manter o codebase organizado e de fácil compreensão.Nessa palestra serão apresentadas algumas ferramentas e práticas para auxiliar nesse desafio e manter o código da sua app Rails mais legível e manutenível, facilitando a compreensão do código por outros desenvolvedores.",
+				"cv": "Programador de software, é entusiasta de tecnologias web, boas práticas de programação, arquitetura de software e open-source software. Tem trabalhado nos últimos anos com Ruby on Rails + tecnologias front-end, geralmente com project rescue (recuperação de projetos legados) e mantimento de codebases complexos.",
+				"foto": "img/mateus.JPG"
 			},
 			{
 				"nome": "Noilson",

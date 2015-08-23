@@ -160,7 +160,6 @@ h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 18px;
-    text-align: center;
     line-height: 24px;
     max-width: 700px;
     text-align: justify;
@@ -501,7 +500,7 @@ h3 {
   width: 150px;
   height: 60px;
   display: inline-block;
-  margin: 0 24px;
+  margin: 0 60px;
 }
 
 #sponsors .imgs > div > img {
