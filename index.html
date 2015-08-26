@@ -46,9 +46,6 @@
               <a href="#sponsors">Patrocinadores</a>
             </li>
             <li class="nav-item">
-              <a href="#participants">Quem pode participar</a>
-            </li>
-            <li class="nav-item">
               <a href="#place">Local</a>
             </li>
           </ul>
@@ -187,6 +184,7 @@
         </div>
       </div>
     </section>
+    <!--Inscrição-->
     <section id="sign-up" class="flex-container">
       <div>
         <h3>INSCREVA-SE</h3>
@@ -215,10 +213,11 @@
         </div>
       </div>
     </section>
+    <!--Patrocinadores-->
     <section id="sponsors" class="flex-container">
       <div id="sponsors-div">
         <h3 id="sponsors-h3">PATROCINADORES</h3>
-        <h2>DIAMONTS</h2>
+        <h2>DIAMONT</h2>
         <hr>
         <div class="imgs">
           <div>
@@ -248,11 +247,6 @@
               <img src="img/sponsor_lambda3.png" alt="eduardo pires">
             </a>
           </div>
-          <!--<div>
-            <a href="#">
-              <img src="img/sponsor_microsoft.png" alt="eduardo pires">
-            </a>
-          </div>-->
           <div>
             <a href="#">
               <img src="img/ab.png" alt="eduardo pires">
@@ -263,27 +257,29 @@
               <img src="img/imobee.png" alt="eduardo pires">
             </a>
           </div>
+          <div>
+            <a href="http://novatec.com.br/">
+              <img src="img/novatec.png" alt="novatec">
+            </a>
+          </div>          
         </div>
       </div>
     </section>
-    <section id="participants">
-      <h3 id="participants-h3">QUEM PODE PARTICIPAR</h3>
-      <div>
-        <div class="ct-img" data-sr="enter left move 200px, over 1s, reset">
-          <div class="img">
-            <img alt="Programadores" src="img/david.png">
+
+    <!-- ORGANIZAÇÃO -->
+    <section id="talks" class="flex-container" ng-controller="Talker">
+      <h3 id="talks-h3">ORGANIZAÇÃO</h3>
+      <div id="talks-person">
+        <div class="frame" ng-repeat="organizer in organizers | orderBy:'nome'">
+          <div class="talks-img">
+            <img src="{{organizer.foto}}" class="avatar" />
+            <img src="img/moldura.png" class="moldura" />
+            <div class="nome">
+              <span class="first-name">{{organizer.nome}}</span>{{organizer.sobrenome}}</div>
           </div>
-          <span>PROGRAMADORES</span>
-        </div>
-        <div class="ct-img" data-sr="enter right move 200px, over 1s, reset">
-          <div class="img">
-            <img alt="Designers" src="img/wanderley.png">
-          </div>
-          <span>ANALISTAS</span>
         </div>
       </div>
-    </section>
-    <!-- participants -->
+    </section>    
     <section id="place">
       <div class="local">
         <div>

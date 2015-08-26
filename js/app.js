@@ -9,6 +9,25 @@
 	Talker.$inject = ['$scope']
 
 	function Talker($scope) {
+		
+		$scope.organizers=
+		[
+			{
+				"nome": "Yan",
+				"sobrenome": "Justino",
+				"foto": "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/11221353_1031686336864229_3225866611291680833_n.jpg?oh=98ed624d5f874596d93383d112daf0c4&oe=56710A90&__gda__=1450847994_71e9cce2ad3378434593feff8962c684"
+			},
+			{
+				"nome": "Henri",
+				"sobrenome": "Cavalcante",
+				"foto": "https://avatars.githubusercontent.com/u/2352034?v=3"
+			},
+			{
+				"nome":"Tiago",
+				"sobrenome":"Jesus",
+				"foto": "https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/1482994_10152022176119464_914957283_n.jpg?oh=a5eccd45b0029b1ff3f72c7e27480a56&oe=566708E3&__gda__=1450814056_7f9dbfe111b782cc12c46615bc79e69d"
+			}
+		]
 
 		$scope.talkers =
 		[
