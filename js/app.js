@@ -158,9 +158,9 @@
 				"empresa": "IVIA",
 				"facebook": "https://br.linkedin.com/in/ncaio/pt",
 				"github": "https://br.linkedin.com/in/ncaio/pt",
-				"titulo": "Em breve",
-				"resumo": "Em breve",
-				"cv": "Em Breve",
+				"titulo": "Comunicação em Tempo Real com WebRTC",
+				"resumo": "Introdução a tecnologia que está possibilitando que o mercado de telecomunicações crie novas soluções pensando em todos. * O que é o WebRTC; * Conceitos;* Aplicações;* Desafios;* Verto Communicator.",
+				"cv": "CTO e Co-Fundador da Evolux, programador Python, SysAdmin.",
 				"foto": "https://media.licdn.com/media/p/2/005/0b9/20a/3e06697.jpg"
 			}
 		];
