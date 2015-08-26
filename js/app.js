@@ -131,15 +131,15 @@
 				"foto": "https://mvp.microsoft.com/en-us/PublicProfile/Photo/4030594"
 			},
 			{
-				"nome": "Ítalo",
-				"sobrenome": "Rossi",
-				"empresa": "Evolux",
-				"facebook": "https://www.facebook.com/italorossib",
-				"github": "https://github.com/italorossi",
+				"nome": "Noilson",
+				"sobrenome": "Caio",
+				"empresa": "IVIA",
+				"facebook": "https://br.linkedin.com/in/ncaio/pt",
+				"github": "https://br.linkedin.com/in/ncaio/pt",
 				"titulo": "Em breve",
 				"resumo": "Em breve",
 				"cv": "Em Breve",
-				"foto": "https://scontent-mia1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10641111_747091105373293_8276710888319398401_n.jpg?oh=1a9e0bcb03a6058b3aa1a18353938e74&oe=564427E2"
+				"foto": "https://media.licdn.com/media/p/2/005/0b9/20a/3e06697.jpg"
 			},
 			{
 				"nome": "Mateus",
@@ -153,15 +153,15 @@
 				"foto": "img/mateus.JPG"
 			},
 			{
-				"nome": "Noilson",
-				"sobrenome": "Caio",
-				"empresa": "IVIA",
-				"facebook": "https://br.linkedin.com/in/ncaio/pt",
-				"github": "https://br.linkedin.com/in/ncaio/pt",
+				"nome": "Ítalo",
+				"sobrenome": "Rossi",
+				"empresa": "Evolux",
+				"facebook": "https://www.facebook.com/italorossib",
+				"github": "https://github.com/italorossi",
 				"titulo": "Comunicação em Tempo Real com WebRTC",
 				"resumo": "Introdução a tecnologia que está possibilitando que o mercado de telecomunicações crie novas soluções pensando em todos. * O que é o WebRTC; * Conceitos;* Aplicações;* Desafios;* Verto Communicator.",
 				"cv": "CTO e Co-Fundador da Evolux, programador Python, SysAdmin.",
-				"foto": "https://media.licdn.com/media/p/2/005/0b9/20a/3e06697.jpg"
+				"foto": "https://scontent-mia1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10641111_747091105373293_8276710888319398401_n.jpg?oh=1a9e0bcb03a6058b3aa1a18353938e74&oe=564427E2"
 			}
 		];
 	}
