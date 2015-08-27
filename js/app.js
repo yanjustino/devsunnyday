@@ -38,7 +38,7 @@
 				"facebook": "http://facebook.com/andre.baltieri",
 				"github": "http://github.com/andrebaltieri",
 				"titulo": "Single Page Applications com NodeJs e AngularJs",
-				"resumo": "Nesta palestra vamos aprender a criar aplicações ricas e modernas utilizando o ASP.NET WebAPI como Backend e o AngularJs como frontend.",
+				"resumo": "Nesta palestra vamos aprender a criar aplicações ricas e modernas utilizando o NodeJs  como Backend e o AngularJs como frontend.",
 				"cv": "Trabalha com desenvolvimento de aplicações web desde 2003, em projetos de médio e grande porte no Brasil, EUA, Inglaterra e Holanda. Atualmente é consultor independente e realiza treinamentos na plataforma web/.NET. Amante de JavaScript, focado em SPA e desenvolvimento web para aplicativos móveis para diversos dispositivos e áreas.",
 				"foto": "https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/1601238_10153087456948592_5860558739462804315_n.jpg?oh=7feba13d46b60207c6bf584ebed75f09&oe=5684604F&__gda__=1451454320_c8928df65b0453c28f9de1044a8ce59c"
 			},
