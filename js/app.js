@@ -135,10 +135,10 @@
 				"sobrenome": "Caio",
 				"empresa": "IVIA",
 				"facebook": "https://br.linkedin.com/in/ncaio/pt",
-				"github": "https://br.linkedin.com/in/ncaio/pt",
-				"titulo": "Em breve",
-				"resumo": "Em breve",
-				"cv": "Em Breve",
+				"github": "https://github.com/ncaio",
+				"titulo": "Caso Torroulette: Como abstrair pesquisas com o uso de técnicas atuais de desenvolvimento.",
+				"resumo": "Esta palestra aborda o tema do desenvolvimento como ferramenta de abstração de técnicas, conceitos e pesquisas. Fala de como utilizei ferramentas, métodos e linguagens de programação para compreender e expressar ideias. Percebendo a possibilidade de utilizar as características da rede de anonimato Tor para testes de conceitos (POC), precisei de artefatos para construir cenários e aplicações, entrando em ação Golang, Docker, SeleniumHQ, Zeromq, entre outras ferramentas.",
+				"cv": "Pós-Graduação em Redes de Computadores e Telecomunicações . Atualmente é analista de suporte, professor na rede particular de ensino superior, tem experiência na área de Ciência da Computação, com ênfase em Redes de Computadores, Segurança e GNU Linux. Pesquisador autônomo, palestrante e projetista/Maker.",
 				"foto": "https://media.licdn.com/media/p/2/005/0b9/20a/3e06697.jpg"
 			},
 			{
