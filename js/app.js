@@ -43,17 +43,6 @@
 				"foto": "https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/1601238_10153087456948592_5860558739462804315_n.jpg?oh=7feba13d46b60207c6bf584ebed75f09&oe=5684604F&__gda__=1451454320_c8928df65b0453c28f9de1044a8ce59c"
 			},
 			{
-				"nome": "Giovanni Bassi",
-				"sobrenome": "Bassi",
-				"empresa": "Lambda3",
-				"facebook": "",
-				"github": "https://github.com/giggio",
-				"titulo": "Os novos compiladores do C# e VB: Roslyn",
-				"resumo": "O compilador do C# foi reescrito em C# (antes era escrito com C++). Um código de mais de dez anos foi inteiramente revisto, novas camadas e abstrações foram criadas, resultando em um compilador muito mais modular, com diversas novas capacidades e muito mais fácil de manter. Esse não é o típico compilador que você conheceu na faculdade, ele vai mais além em diversos outros aspectos. Nessa palestra vamos entender essa nova arquitetura e descobrir que até para quem não é um cientista da computação tem muitas coisas divertidas para aprender e fazer com ele.",
-				"cv": "Arquiteto e desenvolvedor, agilista, escalador, provocador.\nPrograma porque gosta, e começou a trabalhar com isso porque acha que trabalhar como administrador é meio chato. Por esse motivo sempre diz que nunca mais vai virar gerente de ninguém. E também porque acredita que pessoas autogerenciadas funcionam melhor e por acreditar que heterarquia é melhor que hierarquia. Mas isso é outro assunto.\nFoi reconhecido  Microsoft MVP depois que alguém notou que ele não dormia a noite pra ficar escrevendo artigos, cuidando e participando do .Net Architects, gravando o podcast Tecnoretórica, escrevendo posts no blog e falando o que bem entende no twitter @giovannibassi. E por falar nisso é no twitter que conta pra todos que gerencia de projetos deve ser feita pelo time e não por um gerentes, que greves em TI são coisas sem sentido e que stored procedure com regras de negócio são malígnas.\nVocê já deve ter percebido (até porque está lá na primeira frase) que Giovanni é agilista. De tanto gostar disso ele trouxe os programas de certificação e treinamento  PSD e PSM da Scrum.org pro Brasil, e por causa deles, do MVP e de algum trabalho que aparece tem que ficar indo pros EUA de vez enquando, coisa que prefere não fazer. (É bem comum você ouvir ele perguntando porque a Scrum.org e a Microsoft não estão na Itália, por exemplo.)\nJunto com alguns Jedis criou a Lambda3, que, apesar de ser pequena e de não ser muito comum no Brasil, insiste em fazer projetos e consultoria direito. Por causa da Lambda3 ele tem trabalhado mais do que quando era consultor independente, mas menos do que a maioria das pessoas. Quer dizer, isso se você considerar que os trabalhos junto à comunidade não são trabalho, caso contrário ele trabalha mais que a maioria das pessoas.\nRecentemente ele resolveu que merecia viver melhor e ganhar uns anos de vida e desistiu de ser sedentário, fazendo algum barulho de vez em quando com os amigos no twitter com a hashtag #DotNetEmForma. Por causa do convite recente de amigos do lado Open Source (que ele respeita e admira), começou a escalar, e agora está sempre com as mãos machucadas. Mas ainda dá pra programar. Você encontra ele sempre em algum evento, como o TechEd, e o DNAD, mas também outros menos comuns para o pessoal do .NET, como a RubyConf. Nesses eventos, ou ele está vendo palestras, ou batendo papo com alguém, ou codando alguma aplicação que alguém achou que dava pra fazer durante o evento.",
-				"foto": "https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xat1/v/t1.0-9/10300084_846739575361241_4486578800220105110_n.jpg?oh=89eb92d4cf2bdd25bbc39d0871740e87&oe=5635F7BD&__gda__=1448228450_6b0867aad66ca66eb751f4ec8bf73283"
-			},
-			{
 				"nome": "Fernando",
 				"sobrenome": "Henrique",
 				"empresa": "Microsoft",
@@ -162,7 +151,18 @@
 				"resumo": "Introdução a tecnologia que está possibilitando que o mercado de telecomunicações crie novas soluções pensando em todos. * O que é o WebRTC; * Conceitos;* Aplicações;* Desafios;* Verto Communicator.",
 				"cv": "CTO e Co-Fundador da Evolux, programador Python, SysAdmin.",
 				"foto": "https://scontent-mia1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10641111_747091105373293_8276710888319398401_n.jpg?oh=1a9e0bcb03a6058b3aa1a18353938e74&oe=564427E2"
-			}
+			},
+			{  
+				"nome":"Hudson",
+				"sobrenome":"Brendon",
+				"empresa":"IMD",
+				"facebook":"https://www.facebook.com/hudson.brendon",
+				"github":"https://github.com/hudsonbrendon",
+				"titulo":"Docker - Um linux container engine",
+				"resumo":"Na presente palestra será abordada a utilização do docker, ferramenta essa que vem ganhando cada vez mais espaço no mercado. Será abordado conceitos como containeres, imagens, dockerfile, dockerhub, etc … Exemplificarei também, a utilização de ferramentas como o docker-compose, ferramenta essa que possibilita um melhor gerenciamento dos containeres, proporcionando com isso uma melhor flexibilidade e agilidade na hora de se construir ambientes de desenvolvimento e deploy.",
+				"cv":"Hudson é formado em Redes de Computadores pelo Instituto Federal do Rio Grande do Norte, atualmente cursa Análise e Desenvolvimento de Sistemas pela Universidade Federal do Rio Grande do Norte, com experiência nas áreas de desenvolvimento web e administração de redes.",
+				"foto":"https://avatars2.githubusercontent.com/u/5201888?v=3&s=460"
+			}			
 		];
 	}
 
