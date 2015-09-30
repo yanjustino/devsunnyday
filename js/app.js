@@ -155,7 +155,7 @@
 			{  
 				"nome":"Hudson",
 				"sobrenome":"Brendon",
-				"empresa":"IMD",
+				"empresa":"TADS-EAJ",
 				"facebook":"https://www.facebook.com/hudson.brendon",
 				"github":"https://github.com/hudsonbrendon",
 				"titulo":"Docker - Um linux container engine",
